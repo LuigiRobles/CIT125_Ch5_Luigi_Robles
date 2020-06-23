@@ -3,14 +3,14 @@
 // Ch.5 Pg. 137 Lab 5-1
 // 6-22-2020 Summer Term
 #include <iostream>
-#include <iomanip>
 using namespace std;
+#include <iomanip>
 
 int main()
 {
 	double sales = 0.0;
 	double rate = 0.0;
-	char code = '';
+	char code = ' ';
 
 	cout << "Sales: ";
 	cin >> sales;
